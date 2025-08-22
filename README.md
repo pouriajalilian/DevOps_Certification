@@ -73,7 +73,7 @@ Build robust continuous integration and delivery pipelines using GitLab CI:
   - **Testing and Deployment:** Integrate automated tests and deploy applications across multiple environments.
   - **Security in Pipelines:** Add security scanning and compliance checks to your CI/CD pipelines.
 
-#### 9. Argo CD (GitOps)
+#### [9. Argo CD (GitOps)](argocd)
 Implement GitOps principles with Argo CD for continuous delivery in Kubernetes environments:
 
   - **GitOps Overview:** Understand how Argo CD applies GitOps methodologies for automated Kubernetes deployments.
@@ -95,7 +95,7 @@ Protect your critical data with effective backup strategies:
   - **Disaster Recovery Planning (DRP):** Develop a Disaster Recovery Plan (DRP) to ensure business continuity in the face of major incidents such as hardware failures, security breaches, or natural disasters. This section will guide you through setting up redundant infrastructure, automating failover processes, and conducting regular backup testing to verify recovery procedures.
   - **Ceph Backup:** Implement Ceph-based storage backup for high availability and data redundancy.
 
-#### 12. OpenStack
+#### [12. OpenStack](openstack)
 OpenStack is a powerful open-source platform for building and managing cloud computing environments. It provides a comprehensive suite of services that enables organizations to create and manage private and public clouds with scalability and flexibility. Key components include:
 
   - **Nova**: The compute service for managing virtual machines.
@@ -111,7 +111,7 @@ Ceph is a distributed storage system designed to provide highly scalable object,
   - **Ceph Single Node:** A single-node Ceph deployment is ideal for testing and development purposes. It allows users to set up a complete Ceph cluster on a single machine, enabling experimentation with all Ceph features without the complexity of a multi-node setup. This is useful for learning and understanding Ceph’s architecture and functionalities.
   - **Ceph Multi-Node:** A multi-node Ceph deployment is designed for production environments, providing high availability and scalability. In this setup, Ceph daemons are distributed across multiple nodes, allowing for efficient data replication and fault tolerance. This section will guide you through the process of configuring a multi-node Ceph cluster for optimal performance and reliability.
 
-#### 14. MinIO
+#### [14. MinIO](minio)
 MinIO is a high-performance, distributed object storage system designed for cloud-native applications. It is fully compatible with the Amazon S3 API, making it easy to integrate with various applications. Key features include:
 
   - **Scalability:** MinIO can scale out to handle petabytes of data across distributed environments.
